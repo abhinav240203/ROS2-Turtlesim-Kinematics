@@ -35,7 +35,7 @@ This gives the position difference between the two turtles.
 ## 🔄 Rotation Difference
 
 - theta_diff = theta2 - theta1  
-- theta_deg = (theta_diff × 180) / π  
+- theta_deg = (theta_diff × 180) / 3.14  
 
 This gives the orientation difference in radians and degrees.
 
