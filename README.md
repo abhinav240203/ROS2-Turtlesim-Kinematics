@@ -95,4 +95,3 @@ The node prints:
 * 2D translation and rotation concepts
 * Same logic implemented in Python and C++
 
-```
