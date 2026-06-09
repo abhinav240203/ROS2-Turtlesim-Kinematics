@@ -1,0 +1,34 @@
+# ROS2 build system
+build/
+install/
+log/
+.colcon/
+
+# IDE
+.vscode/
+
+# Unwanted packages
+src/robot_controller/
+src/robot_description/
+
+# Images
+images/
+
+# Videos (keep only turtlesim video)
+videos/
+!videos/
+!videos/turtlesim_kinematics.webm
+
+# Unwanted files
+src/robot_cpp/src/simple_parameter.cpp
+src/robot_py/robot_py/simple_parameters.py
+src/robot_py/test/
+src/robot_py/resource/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+*~
+.DS_Store
