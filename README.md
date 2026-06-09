@@ -96,4 +96,3 @@ The node prints:
 * Same logic implemented in Python and C++
 
 ```
-```
