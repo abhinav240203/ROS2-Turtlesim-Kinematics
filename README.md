@@ -59,11 +59,10 @@ This represents the relative orientation between the turtles.
 ros2 run turtlesim turtlesim_node
 
 # Terminal 2 – spawn second turtle (turtle2)
-ros2 service call /spawn turtlesim/srv/Spawn "{x: 5.0, y: 5.0, theta: 0.0, name: 'turtle2'}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 1.0, y: 4.0, theta: 0.0, name: 'turtle2'}"
 
-# Terminal 3 – build workspace
+# Terminal 3 – source workspace and run node
 cd ~/robot_ws
-colcon build
 . install/setup.bash
 
 # run Python version
